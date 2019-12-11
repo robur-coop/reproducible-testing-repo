@@ -1,0 +1,9 @@
+opam-version: "2.0"
+synopsis: "Nothing"
+description: """This package provides nothing, and is just a placeholder"""
+maintainer: "hannes@mehnert.org"
+depends: []
+build: []
+homepage: "https://localhost/"
+bug-reports: "https://github.com/roburio/reproducible-testing-repo"
+authors: [ "Hannes Mehnert" ]

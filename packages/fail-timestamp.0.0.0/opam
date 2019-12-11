@@ -1,0 +1,10 @@
+opam-version: "2.0"
+synopsis: "Emit timestamp"
+description: """This package provides a file named foo with the current timestamp"""
+maintainer: "hannes@mehnert.org"
+depends: []
+build: [ "sh" "-x" "date > foo"]
+homepage: "https://localhost/"
+bug-reports: "https://github.com/roburio/reproducible-testing-repo"
+authors: [ "Hannes Mehnert" ]
+install: [ "cp" "foo" "%{lib}%/foo" ]

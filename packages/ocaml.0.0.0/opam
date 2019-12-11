@@ -1,0 +1,8 @@
+opam-version: "2.0"
+synopsis: "OCaml"
+description: """This package provides just a placeholder"""
+maintainer: "hannes@mehnert.org"
+depends: []
+homepage: "https://localhost/"
+bug-reports: "https://github.com/roburio/reproducible-testing-repo"
+authors: [ "Hannes Mehnert" ]

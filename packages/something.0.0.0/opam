@@ -1,0 +1,10 @@
+opam-version: "2.0"
+synopsis: "Something"
+description: """This package provides something (an empty file foo), and is just a placeholder"""
+maintainer: "hannes@mehnert.org"
+depends: []
+build: [ "touch" "foo"]
+homepage: "https://localhost/"
+bug-reports: "https://github.com/roburio/reproducible-testing-repo"
+authors: [ "Hannes Mehnert" ]
+install: [ "cp" "foo" "%{bin}%/foo" ]

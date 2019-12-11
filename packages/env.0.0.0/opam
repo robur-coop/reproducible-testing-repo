@@ -1,0 +1,10 @@
+opam-version: "2.0"
+synopsis: "Something"
+description: """This package provides a file foo with the captured environment"""
+maintainer: "hannes@mehnert.org"
+depends: []
+build: [ "sh" "-exc" "env > foo"]
+homepage: "https://localhost/"
+bug-reports: "https://github.com/roburio/reproducible-testing-repo"
+authors: [ "Hannes Mehnert" ]
+install: [ "cp" "foo" "%{bin}%/foo" ]
